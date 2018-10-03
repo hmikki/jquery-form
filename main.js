@@ -6,16 +6,9 @@ $(document).ready(function(){
      $(".container").show(400);
     });
     
- $(".shadow").click(function(){
+ $(".shadow , .mainbtn").click(function(){
      $(this).hide();
      $(".container").hide();
      $(".btn").show(200);
- });
-
-$(".mainbtn").click(function(){
-    $(this).hide();
-    $(".container").hide();
-    $(".btn").show(200);
-});
-        
+ });   
 });
